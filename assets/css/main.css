@@ -2295,6 +2295,12 @@ body > article {
 #copyright a:hover {
   color: #777;
 }
+.game-body {
+  padding: 50px 0px;
+}
+.body-description p {
+  font-size: 17.3333px !important;
+}
 
 /* Large */
 
