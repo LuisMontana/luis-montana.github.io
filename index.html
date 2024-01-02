@@ -31,43 +31,47 @@
 
     <!-- Home -->
     <article id="top" class="wrapper style1">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 col-5-large col-12-medium">
-            <span class="image fit"
-              ><img src="images/Portrait.jpg" alt=""
-            /></span>
-          </div>
-          <div class="col-8 col-7-large col-12-medium">
-            <header>
-              <h1>Hi! My name is <strong>Luis Montana</strong>.</h1>
-            </header>
-            <p>
-              I'm a computer scientist that's very passionate about creating
-              things and understanding the impact they have on people.
-            </p>
-            <p>
-              For thee past 6+ years, I've worked professionally as a Web
-              developer both in backend and frontend. I've worked in multiple
-              projects involving E-learning, Health and Cybersecurity.
-            </p>
-            <p>
-              I am very passionate about everything related to gaming. I'm an
-              avid gamer, I've been recording a
-              <a
-                href="https://open.spotify.com/show/37WJ8IgpsotsJMQdsaoCl9"
-                target="_blank"
-                >podcast</a
-              >
-              about videogames for 5 years now. And in my free time I develop
-              small-scale games with friends or as a member of
-              <a href="https://hometeamgamedev.com/" target="_blank"
-                >HomeTeamGameDev.
-              </a>
-              where I've been a named a Game Changer for my contributions since
-              I joined in 2021.
-            </p>
-          </div>
+      <div class="row header-row">
+        <div class="col-6 col-5-large col-12-medium compilation-video">
+          <iframe
+            width="800"
+            height="600"
+            src="https://www.youtube.com/embed/E3ycuhjUyfg?si=6VSwloao6CN_1dTQ?rel=0&amp;autoplay=1&mute=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-6 col-7-large col-12-medium">
+          <header>
+            <h1>Hi! I'm <strong>Luis Montana</strong>.</h1>
+          </header>
+          <p>
+            I'm a Front-end Developer passionate about solving user necessities
+            through the use of software tools.
+          </p>
+          <p>
+            For thee past 6+ years, I've worked professionally as a Web
+            developer both in backend and frontend. I've worked in multiple
+            projects involving E-learning, Health and Cybersecurity.
+          </p>
+          <p>
+            I have a huge interest in the gaming world and its cultural impact.
+            In my free time I develop small-scale games with friends or as a
+            member of
+            <a href="https://hometeamgamedev.com/" target="_blank"
+              >HomeTeamGameDev.
+            </a>
+            where I've been a named a Game Changer for my contributions for the
+            past 10 quarters since I joined in 2021. I've also been recording a
+            <a
+              href="https://open.spotify.com/show/37WJ8IgpsotsJMQdsaoCl9"
+              target="_blank"
+              >podcast</a
+            >
+            about videogames for 5 years.
+          </p>
         </div>
       </div>
     </article>
@@ -108,11 +112,11 @@
           <div class="col-4 col-6-medium col-12-small">
             <section class="box style1">
               <i class="icon featured fa-solid fa-gamepad"></i>
-              <h3>2D Game Development</h3>
+              <h3>Game Development</h3>
               <p>
                 Thanks to my personal projects, I've come to develop skills such
                 as creating and animating pixel art and understanding the core
-                functionalities of Unity's 2D tooling.
+                functionalities of Unity's tooling.
               </p>
             </section>
           </div>
@@ -124,141 +128,221 @@
     <article id="portfolio" class="wrapper style3">
       <div class="container">
         <header>
-          <h2>Here’s some stuff I made recently.</h2>
-          <p>
-            Proin odio consequat sapien vestibulum consequat lorem dolore
-            feugiat.
-          </p>
+          <h2>Here are some of the projects I have made recently.</h2>
         </header>
-        <div class="row">
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/murder-in-buzztown"
-                class="image featured"
-                ><img src="images/murder-in-buzztown.png" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/murder-in-buzztown"
-                  >Murder In Buzztown (In Development)</a
-                >
-              </h3>
-              <p>First level concept for a Metroidvania in a Steampunk world</p>
-            </article>
+        <div class="row tab-header">
+          <a class="tab-header-option" data-tab="projects">Projects</a>
+          <a class="tab-header-option" data-tab="jams">Game Jams</a>
+        </div>
+        <div id="projects" class="js-tab tab-active">
+          <div class="row">
+            <div class="col-6 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/murder-in-buzztown"
+                  class="image featured"
+                  ><img src="images/murder-in-buzztown.gif" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/murder-in-buzztown"
+                    >Murder In Buzztown</a
+                  >
+                </h3>
+                <p>
+                  First level concept for a Metroidvania in a Steampunk world
+                  <br />
+                  <b>Sept 17th - Dec 19th (2023)</b>
+                  <br />
+                  Created by a team of 9 people
+                </p>
+              </article>
+            </div>
+            <div class="col-6 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/thrill-of-the-wheel"
+                  class="image featured"
+                  ><img src="images/thrill-of-the-wheel.gif" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/thrill-of-the-wheel"
+                    >The Thrill of the Wheel</a
+                  >
+                </h3>
+                <p>
+                  Concept for a car-based combat arena
+                  <br />
+                  <b>Oct 23th 2022 - Mar 25th 2023</b>
+                  <br />
+                  Created by a team of 9 people
+                </p>
+              </article>
+            </div>
+            <div class="col-6 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/waking-graves"
+                  class="image featured"
+                  ><img src="images/waking-graves.gif" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/waking-graves"
+                    >Waking Graves</a
+                  >
+                </h3>
+                <p>
+                  Action platformer inspired by Megaman
+                  <br />
+                  <b>Oct 10th 2021 - Jan 28th 2022</b>
+                  <br />
+                  Created by a team of 8 people
+                </p>
+              </article>
+            </div>
+            <div class="col-6 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/into-the-depths"
+                  class="image featured"
+                  ><img src="images/into-the-depths.png" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/into-the-depths"
+                    >Into the depths</a
+                  >
+                </h3>
+                <p>
+                  A game about sacrificing things to advance between levels
+                  <br />
+                  <b>Feb 1st - Feb 28 (2020)</b>
+                  <br />
+                  Created by a team of 2 people
+                </p>
+              </article>
+            </div>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/waking-graves"
-                class="image featured"
-                ><img src="images/waking-graves.gif" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/waking-graves"
-                  >Waking Graves</a
-                >
-              </h3>
-              <p>Action platformer inspired by Megaman</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/entropius-the-die"
-                class="image featured"
-                ><img src="images/entropius.gif" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/entropius-the-die"
-                  >Entropius, The Dies</a
-                >
-              </h3>
-              <p>Game Jam entry for GMTK 2022</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/the-joining-stones"
-                class="image featured"
-                ><img src="images/the-joining-stones.png" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/the-joining-stones"
-                  >The Joining Stones</a
-                >
-              </h3>
-              <p>Game Jam entry for GMTK 2021</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/old-man-juancho"
-                class="image featured"
-                ><img src="images/old-man-juancho.png" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/old-man-juancho"
-                  >Old Man Juancho ...</a
-                >
-              </h3>
-              <p>Game Jam entry for Global GameJam 2021</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/the-vendor"
-                class="image featured"
-                ><img src="images/the-vendor.png" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/the-vendor">The Vendor</a>
-              </h3>
-              <p>Game Jam entry for Ludum Dare 47</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="/luis-montana.github.io/frenesi" class="image featured"
-                ><img src="images/frenesi.png" alt=""
-              /></a>
-              <h3><a href="/luis-montana.github.io/frenesi">Frenesi</a></h3>
-              <p>Game Jam entry for GMTK 2020</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/into-the-depths"
-                class="image featured"
-                ><img src="images/into-the-depths.png" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/into-the-depths"
-                  >Into the depths</a
-                >
-              </h3>
-              <p>A game about sacrifices</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a
-                href="/luis-montana.github.io/mama-so-fast"
-                class="image featured"
-                ><img src="images/mama-so-fast.png" alt=""
-              /></a>
-              <h3>
-                <a href="/luis-montana.github.io/mama-so-fast">Mama So Fast</a>
-              </h3>
-              <p>Pixel Art Puzzle Game</p>
-            </article>
+        </div>
+        <div id="jams" class="js-tab">
+          <div class="row">
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/entropius-the-die"
+                  class="image featured"
+                  ><img src="images/entropius.gif" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/entropius-the-die"
+                    >Entropius, The Dies</a
+                  >
+                </h3>
+                <p>Game Jam entry for GMTK 2022</p>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/the-joining-stones"
+                  class="image featured"
+                  ><img src="images/the-joining-stones.png" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/the-joining-stones"
+                    >The Joining Stones</a
+                  >
+                </h3>
+                <p>Game Jam entry for GMTK 2021</p>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/old-man-juancho"
+                  class="image featured"
+                  ><img src="images/old-man-juancho.png" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/old-man-juancho"
+                    >Old Man Juancho ...</a
+                  >
+                </h3>
+                <p>Game Jam entry for Global GameJam 2021</p>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/the-vendor"
+                  class="image featured"
+                  ><img src="images/the-vendor.png" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/the-vendor">The Vendor</a>
+                </h3>
+                <p>Game Jam entry for Ludum Dare 47</p>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a href="/luis-montana.github.io/frenesi" class="image featured"
+                  ><img src="images/frenesi.png" alt=""
+                /></a>
+                <h3><a href="/luis-montana.github.io/frenesi">Frenesi</a></h3>
+                <p>Game Jam entry for GMTK 2020</p>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a
+                  href="/luis-montana.github.io/mama-so-fast"
+                  class="image featured"
+                  ><img src="images/mama-so-fast.png" alt=""
+                /></a>
+                <h3>
+                  <a href="/luis-montana.github.io/mama-so-fast"
+                    >Mama So Fast</a
+                  >
+                </h3>
+                <p>Pixel Art Puzzle Game</p>
+              </article>
+            </div>
           </div>
         </div>
       </div>
     </article>
+
+    <script type="text/javascript">
+      function Tabs() {
+        var bindAll = function () {
+          var menuElements = document.querySelectorAll("[data-tab]");
+          console.log(menuElements);
+          for (var i = 0; i < menuElements.length; i++) {
+            menuElements[i].addEventListener("click", change, false);
+          }
+        };
+
+        var clear = function () {
+          var menuElements = document.querySelectorAll("[data-tab]");
+          for (var i = 0; i < menuElements.length; i++) {
+            menuElements[i].classList.remove("tab-active");
+            var id = menuElements[i].getAttribute("data-tab");
+            document.getElementById(id).classList.remove("tab-active");
+          }
+        };
+
+        var change = function (e) {
+          clear();
+          e.target.classList.add("tab-active");
+          var id = e.currentTarget.getAttribute("data-tab");
+          document.getElementById(id).classList.add("tab-active");
+          console.log(id);
+        };
+
+        bindAll();
+      }
+
+      var connectTabs = new Tabs();
+    </script>
 
     <!-- Contact -->
     <!-- <article id="contact" class="wrapper style4">
